@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+       
+
+         <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+ <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="@mipmap/tab" >
+
+         
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+              <RelativeLayout
+                  android:id="@+id/layout1"
+                  android:layout_width="0dp"
+                  android:layout_height="45dp"
+                  android:layout_marginTop="3dp"
+                  android:layout_weight="1"
+                  android:clickable="true"
+                  android:focusable="true">  
+                
+                  <ImageView
+                      android:id="@+id/image1"
+                      android:layout_width="25dp"
+                      android:layout_height="25dp"
+                       android:layout_centerHorizontal="true"
+                      android:layout_marginTop="3dp"
+                      android:background="@mipmap/u3200_selected"/>
+                  <TextView
+                       android:id="@+id/tv1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="首页"
+                      android:textSize="12dp"
+                      android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimaryDark"
+                      
+
+                      android:layout_below="@+id/image1"
+                      android:layout_alignStart="@+id/image1" />
+                  
+                  
+               </RelativeLayout> 
+               <RelativeLayout
+                   android:id="@+id/layout2"
+                  android:layout_width="0dp"
+                  android:layout_height="45dp"
+                  android:layout_marginTop="3dp"
+                  android:layout_weight="1"
+                  android:clickable="true"
+                  android:focusable="true">  
+                 <ImageView
+                      android:id="@+id/image2"
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginTop="3dp"
+                     android:background="@mipmap/u318"
+                     android:layout_alignEnd="@+id/tv2" />
+                  <TextView
+                       android:id="@+id/tv2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/image2"
+                      android:text="消息"
+                       android:layout_centerHorizontal="true"
+                      android:textSize="12dp"
+                     
+                    
+                      android:duplicateParentState="true"/>
+               </RelativeLayout> 
+               <RelativeLayout
+                   android:id="@+id/layout3"
+                  android:layout_width="0dp"
+                  android:layout_height="45dp"
+                  android:layout_marginTop="3dp"
+
+                  android:layout_weight="1"
+                   android:clickable="true"
+                  android:focusable="true">  
+                 <ImageView
+                      android:id="@+id/image3"
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:background="@mipmap/u320"
+                     android:layout_marginTop="3dp"
+                     android:layout_centerHorizontal="true"
+                     android:layout_alignEnd="@+id/tv3" />
+                  <TextView
+                       android:id="@+id/tv3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/image3"
+                      android:text="工作"
+                       android:layout_centerHorizontal="true"
+                      android:textSize="12dp"
+                     
+                    
+                      android:duplicateParentState="true"/>
+               </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3dp"
+                        android:background="@mipmap/u3180" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+
+                        android:text="通讯录"
+                        android:layout_centerHorizontal="true"
+
+                        android:textSize="12dp"
+                        android:layout_below="@+id/image4"
+                         />
+                </RelativeLayout>
+
+                <!--<RelativeLayout
+                   android:id="@+id/layout5"
+                  android:layout_width="0dp"
+                  android:layout_height="45dp"
+                  android:layout_marginTop="3dp"
+                  android:layout_weight="1"
+                   android:clickable="true"
+                  android:focusable="true">  
+                 <ImageView
+                      android:id="@+id/image5"
+                      android:layout_width="25dp"
+                      android:layout_height="25dp"
+                      android:layout_marginTop="3dp"
+                      android:layout_centerHorizontal="true"
+                      android:background="@drawable/xh6"/>
+                  <TextView
+                       android:id="@+id/tv5"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/image5"
+                      android:text="我的"
+                      android:layout_centerHorizontal="true"
+                      android:textSize="12dp"
+                      
+                     
+                      android:duplicateParentState="true"/>
+               </RelativeLayout> -->
+            </LinearLayout>
+            
+            
+            
+          <!--   <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                
+               
+                android:orientation="horizontal" >
+                     <RadioButton
+                    android:id="@+id/main5"
+                   android:layout_width="120dp"
+                   android:height="80dp"
+                   
+                    android:background="@drawable/casc"
+                    
+                    
+                    />
+                
+                
+                
+                
+                <RadioButton
+                    android:id="@+id/main0"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textSize="12dip"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:button="@null"
+                    android:background="@drawable/bg_checkbox_menus"
+                    android:checked="true"
+                    android:drawableTop="@drawable/icon_1_n"
+                    android:text="首页" />
+
+                <View
+                    android:layout_width="2dip"
+                    android:layout_height="45dp"
+                    android:background="@color/gray_black" />
+
+                <RadioButton
+                    android:id="@+id/main1"
+                     android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textSize="12dip"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:button="@null"
+                    android:background="@drawable/bg_checkbox_menus"
+                    android:drawableTop="@drawable/icon_2_n"
+                    android:text="信息采集" />
+
+
+
+                <View
+                    android:layout_width="2dip"
+                    android:layout_height="45dp"
+                    android:background="@color/gray_black" />
+
+                <RadioButton
+                    android:id="@+id/main3"
+                     android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textSize="12dip"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:button="@null"
+                    android:background="@drawable/bg_checkbox_menus"
+                    android:drawableTop="@drawable/icon_4_n"
+                    android:text="巡检" />
+
+                <View
+                    android:layout_width="2dip"
+                    android:layout_height="45dp"
+                    android:background="@color/gray_black" />
+
+                <RadioButton
+                    android:id="@+id/main4"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textSize="12dip"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:button="@null"
+                    android:background="@drawable/bg_checkbox_menus"
+                    android:drawableTop="@drawable/icon_4_n"
+                    android:text="任务列表" />
+            </RadioGroup> -->
+        </FrameLayout>
+       
+        
+    </LinearLayout>
+
+</TabHost>

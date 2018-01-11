@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 加载框背景颜色 -->
+    <color name="loading_bg">#ff4c4c4c</color>
+    <color name="loading_text_grayer">#ff999999</color>
+    <color name="loading_transparent_background">#00111111</color>
+
+    <!-- 背景颜色 -->
+    <color name="bg_color_green">#20c67a</color>
+    <color name="bg_color_white">#ffffff</color>
+    <color name="bg_color_light_gray">#eeeeee</color>
+    <color name="bg_color_blue">#4487c2</color>
+    <color name="bg_color_red">#FF0000</color>
+    <!--标题栏背景-->
+    <color name="bg_color_title">#f7f7f7</color>
+    <!--通用区域块背景-->
+    <color name="bg_color_frame">#eeeeee</color>
+
+    <!--待废弃-->
+    <color name="bg_color">#20c67a</color>
+    <color name="bg_color_black">#20c67a</color>
+
+    <!--标题颜色-->
+    <color name="title_color_green">#20c67a</color>
+
+    <!--间隔线颜色-->
+    <!--常用分割线-->
+    <color name="line_color_frame">#e9e9e9</color>
+    <color name="line_color_gray">#efeef4</color>
+
+    <!--适用于标题栏和内容区域分割线-->
+    <color name="line_color_title">#d2d2d2</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <!-- 字体颜色一 -->
+    <!--绿色-->
+    <color name="font_color_green">#20c67a</color>
+    <!--纯黑色-->
+    <color name="black">#000000</color>
+    <!--深黑色-->
+    <color name="font_color_black">#333333</color>
+    <!--深灰色-->
+    <color name="font_color_tab">#666666</color>
+    <!--白色-->
+    <color name="font_color_white">#ffffff</color>
+    <!--浅白色-->
+    <color name="font_color_light_white">#a6ffe5</color>
+    <!--浅灰色-->
+    <color name="font_color_light_gray">#bcbcbc</color>
+    <!--灰色-->
+    <color name="font_color_gray">#999999</color>
+    <!--深灰色-->
+    <color name="font_color_weight_gray">#636363</color>
+    <!--黄色ffad4a-->
+    <color name="font_color_yellow">#ffad4a</color>
+    <!--蓝色-->
+    <color name="font_color_blue">#4487c2</color>
+    <!--红色-->
+    <color name="font_color_red">#FF0000</color>
+
+    <!--actionbar颜色-->
+    <color name="actionbar_bg_color">#f7f7f7</color>
+    <color name="btu_color">#37B5F6</color>
+    <!--按压颜色-->
+    <color name="main_actionbar_item_pressed">#4367A8</color>
+    <color name="umeng_socialize_text_ucenter">#EEEEEE</color>
+<!--tag颜色-->
+    <color name="title">#242424</color>
+    <color name="grey">#757575</color>
+    <color name="white">#fff</color>
+    <color name="primary">#F44336</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#2a2a2a</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#F8F8F8</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#2e96f0</color>
+    <color name="blue_orl">#54abfa</color>
+    <color name="gray">#7c7c7c</color>
+    <color name="greynew">#a0a0a0</color>
+    <color name="gray_white">#ebebeb</color>
+    <color name="gray_light">#887c7c7c</color>
+    <color name="gray_black">#2e2e2e</color>
+    <color name="gray_an">#696969</color>
+
+    <color name="newtitle">#1a1a3c</color>
+    <color name="yellow">#FFFC00</color>
+    <color name="pink">#FF87EF</color>
+    <color name="orange">#ff6200</color>
+    <color name="list_divider">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#90F0F8FF</color>
+    <color name="transparent2">#20F0F8FF</color>
+    <color name="window_bg">#88838B8B</color>
+    <color name="crop_background">#737373</color>
+    <color name="line_target">#C2C3C7</color>
+    <color name="main_divider_line">#E4E4E4</color>
+    <color name="main_item_text">#7C8187</color>
+    <color name="title_str_color">#FFFFFF</color>
+    <color name="page_title_color">#2e96f0</color>
+    <color name="page_content_color">#EEEEEE</color>
+    <color name="white_content_color">#FFFFFF</color>
+    <color name="yellow_page_search_bg">#fffffbfa</color>
+    <color name="login_form_hint">#ffb5b5b5</color>
+    <color name="yellow_light">#ffefa717</color>
+    <color name="darkblue">#00BFFF</color>
+
+    <color name="jinse">#FFD700</color>
+    <color name="danzise">#EEB2EE</color>
+    <color name="liangganglan">#B0E0E6</color>
+    <color name="comm">#B0C4DE</color>
+    <color name="ziluolan">#8A2BE2</color>
+    <color name="ailisilan">#F0F8FF</color>
+    <color name="shiyan">#F08080</color>
+
+    <drawable name="white">#00000000</drawable>
+    <drawable name="yellow">#fbfe81</drawable>
+    <drawable name="btncolor">#1a1a3c</drawable>
+    <color name="sc_transparent">#00ffffff</color>
+
+
+    <color name="shihuise">#708090</color>
+    <color name="anhuise">#696969</color>
+    <color name="anhuilanse">#483D8B</color>
+    <color name="zhonganlanse">#7B68EE</color>
+    <color name="anlanse">#00008B</color>
+    <color name="zhonghuilanse">#191970</color>
+
+
+    <color name="ss_comment_time">#ff999999</color>
+    <color name="item_local">#ffffffff</color>
+
+    <!-- 植保管理：导航菜单滑动 -->
+    <color name="radiobg_press">#2e96f0</color>
+    <color name="radiobg_normal">#ebebeb</color>
+    <color name="title_blue">#54abfa</color>
+
+
+</resources>

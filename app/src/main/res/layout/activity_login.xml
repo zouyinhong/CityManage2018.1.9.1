@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginback2"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="@dimen/margin_or_padding_30"
+        android:layout_marginRight="@dimen/margin_or_padding_30"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+        <!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+
+            android:src="@mipmap/theme" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+
+            android:src="@mipmap/logo2" />
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:text="冰城智慧城管"
+            android:textColor="@color/font_color_white"
+            android:textSize="45sp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_shape_accept02"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_or_padding_16"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_or_padding_10"
+                    android:src="@mipmap/yonghuming" />
+
+                <mycity.com.citymanage.view.ClearEditText
+                    android:id="@+id/login_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="用户名"
+                    android:inputType="textPersonName"
+                    android:maxLength="11"
+                    android:singleLine="true"
+                    android:textColor="@color/font_color_white"
+                    android:textColorHint="@color/font_color_white" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dcdbdb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_or_padding_16"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_or_padding_10"
+                    android:src="@mipmap/mima" />
+
+                <mycity.com.citymanage.view.ClearEditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="密　码"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="@color/font_color_white"
+                    android:textColorHint="@color/font_color_white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_or_padding_10"
+            android:layout_marginTop="@dimen/margin_or_padding_10"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/iv_wjmima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_or_padding_5"
+                android:layout_toLeftOf="@+id/tv_wjmima"
+                android:src="@mipmap/wangjimima" />
+
+            <TextView
+                android:id="@+id/tv_wjmima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/iv_wjmima"
+                android:layout_alignParentRight="true"
+                android:text="忘记密码"
+                android:textColor="@color/font_color_white" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="登录"
+            android:textSize="18sp"
+            android:background="@mipmap/login1"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/login_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/close"
+        android:layout_gravity="right"
+        android:padding="30dp"
+        android:visibility="gone"
+        android:layout_marginTop="60dp"
+        />
+
+</LinearLayout>

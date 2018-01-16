@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@+id/layout_action_bar"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:background="#5b5b5c"
@@ -23,7 +22,6 @@
             android:src="@mipmap/back" />
 
         <TextView
-            android:id="@+id/title_actionbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,7 +51,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -64,7 +61,6 @@
             />
 
         <TextView
-            android:id="@+id/tv12"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -97,7 +93,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv21"
             android:layout_width="0dp"
             android:layout_weight="1"
 
@@ -109,7 +104,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv22"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -134,7 +128,6 @@
 
         <ImageView
 
-            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -145,7 +138,6 @@
             android:src="@mipmap/wait_deal_f" />
 
         <TextView
-            android:id="@+id/tv31"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -155,7 +147,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv32"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -188,7 +179,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv41"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -199,7 +189,6 @@
             />
 
         <TextView
-            android:id="@+id/tv42"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -231,7 +220,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv51"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -241,7 +229,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv52"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -274,7 +261,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv61"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -284,7 +270,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv62"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -317,7 +302,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv71"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -327,7 +311,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv72"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -360,7 +343,6 @@
             android:paddingTop="10dp"
             android:src="@mipmap/wait_deal_f" />
         <TextView
-            android:id="@+id/tv81"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -370,7 +352,6 @@
             android:textSize="@dimen/font_15"
             />
         <TextView
-            android:id="@+id/tv82"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

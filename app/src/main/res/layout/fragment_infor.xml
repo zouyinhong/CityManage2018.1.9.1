@@ -8,7 +8,6 @@
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
-        android:id="@+id/layout_action_bar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
 
@@ -27,7 +26,6 @@
             android:src="@mipmap/personnew" />
 
         <TextView
-            android:id="@+id/title_actionbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -38,7 +36,6 @@
             android:textSize="@dimen/font_22" />
 
         <ImageView
-            android:id="@+id/image_seach"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -141,7 +138,6 @@
             android:paddingTop="5dp"
             android:src="@mipmap/infor_gonggao" />
         <TextView
-            android:id="@+id/tv11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -176,7 +172,6 @@
             android:src="@mipmap/infor_dongtai" />
 
         <TextView
-            android:id="@+id/tv21"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
@@ -202,7 +197,6 @@
 
         <ImageView
 
-            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -213,7 +207,6 @@
             android:src="@mipmap/infor_shanggang" />
 
         <TextView
-            android:id="@+id/tv31"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -246,7 +239,6 @@
             android:paddingTop="5dp"
             android:src="@mipmap/infor_wangge" />
         <TextView
-            android:id="@+id/tv41"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -280,7 +272,6 @@
             android:paddingTop="5dp"
             android:src="@mipmap/infor_ducha" />
         <TextView
-            android:id="@+id/tv51"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -314,7 +305,6 @@
             android:paddingTop="5dp"
             android:src="@mipmap/infor_daishenhe" />
         <TextView
-            android:id="@+id/tv61"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

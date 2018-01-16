@@ -55,7 +55,6 @@
                     android:src="@mipmap/yonghuming" />
 
                 <mycity.com.citymanage.view.ClearEditText
-                    android:id="@+id/login_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -86,7 +85,6 @@
                     android:src="@mipmap/mima" />
 
                 <mycity.com.citymanage.view.ClearEditText
-                    android:id="@+id/login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -139,7 +137,6 @@ android:text="登录"
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/login_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/close"

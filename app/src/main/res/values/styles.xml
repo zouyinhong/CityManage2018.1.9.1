@@ -24,13 +24,4 @@
     </style>
 
     <!-- 侧边栏按钮 -->
-    <style name="Button">
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_marginTop">3dp</item>
-        <item name="android:layout_marginLeft">3dp</item>
-        <item name="android:layout_marginRight">3dp</item>
-        <item name="android:layout_marginBottom">3dp</item>
-        <item name="android:background">@drawable/selector_button</item>
-        <item name="android:onClick">onClick</item>
-    </style>
 </resources>

@@ -15,7 +15,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/loginperson"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
@@ -40,7 +39,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/role"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -69,7 +67,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/code"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -98,7 +95,6 @@
             android:orientation="horizontal">
            <!-- android:background="@mipmap/scan_mask"-->
             <ImageButton
-                android:id="@+id/imgbtn1"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="30dp"
@@ -126,7 +122,6 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imgbtn2"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="30dp"
@@ -153,7 +148,6 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imgbtn3"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="30dp"
@@ -181,7 +175,6 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imgbtn4"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="30dp"
@@ -210,7 +203,6 @@
 
             <ImageButton
 
-                android:id="@+id/imgbtn5"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="30dp"

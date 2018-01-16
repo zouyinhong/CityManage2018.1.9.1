@@ -7,7 +7,6 @@
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
-        android:id="@+id/layout_action_bar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
 
@@ -26,7 +25,6 @@
             android:src="@mipmap/personnew" />
 
         <TextView
-            android:id="@+id/title_actionbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -37,7 +35,6 @@
             android:textSize="@dimen/font_22" />
 
         <ImageView
-            android:id="@+id/image_seach"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
